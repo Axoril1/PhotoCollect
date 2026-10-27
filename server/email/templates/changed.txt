@@ -1,0 +1,11 @@
+Your password has been changed
+
+Hi {{name}},
+
+This is a confirmation that the password for your PhotoCollect account has been successfully changed.
+
+If you made this change, no further action is required. If you did not make this change, please contact support immediately to secure your account.
+
+--
+PhotoCollect Team
+{{appUrl}}

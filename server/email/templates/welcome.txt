@@ -1,0 +1,16 @@
+Welcome to PhotoCollect!
+
+Hi {{name}},
+
+We are thrilled to have you join our platform. PhotoCollect makes it easy to collect, organize, and share high-resolution photos for any event.
+
+Start by creating your first event gallery, set a password for privacy, and invite guests to upload their photos in real-time.
+
+Get started by visiting your dashboard:
+{{appUrl}}
+
+If you have any questions or need help setting up, please don't hesitate to reach out to our team.
+
+--
+PhotoCollect Team
+{{appUrl}}

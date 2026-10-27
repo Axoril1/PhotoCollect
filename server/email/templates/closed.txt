@@ -1,0 +1,13 @@
+Event gallery closed
+
+Hi {{name}},
+
+Your event gallery "{{eventName}}" has been closed to new uploads.
+
+Guests will no longer be able to upload photos to this gallery, but you can still view, download, or export existing photos from your dashboard:
+
+{{eventUrl}}
+
+--
+PhotoCollect Team
+{{appUrl}}

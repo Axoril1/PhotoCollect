@@ -1,0 +1,13 @@
+Verify your email address
+
+Hi {{name}},
+
+Thank you for signing up for PhotoCollect. To complete your registration and activate your account, please verify your email address by visiting the following link:
+
+{{verificationUrl}}
+
+This verification link will expire in 24 hours. If you did not sign up for a PhotoCollect account, please ignore this email.
+
+--
+PhotoCollect Team
+{{appUrl}}

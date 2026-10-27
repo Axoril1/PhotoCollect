@@ -1,0 +1,13 @@
+Your event gallery is expiring soon
+
+Hi {{name}},
+
+This is a friendly reminder that your event gallery "{{eventName}}" is set to expire on {{expiresAt}}.
+
+Once expired, the gallery will be archived, and uploading or downloading photos will be disabled. We suggest visiting your dashboard and downloading a ZIP backup of all photos before the expiration date:
+
+{{eventUrl}}
+
+--
+PhotoCollect Team
+{{appUrl}}

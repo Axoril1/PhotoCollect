@@ -1,0 +1,14 @@
+Your event gallery is ready!
+
+Hi {{name}},
+
+Your new event gallery "{{eventName}}" has been successfully created.
+
+You can now share this gallery with your guests to start collecting their high-resolution photos.
+
+View and manage your event gallery here:
+{{eventUrl}}
+
+--
+PhotoCollect Team
+{{appUrl}}
