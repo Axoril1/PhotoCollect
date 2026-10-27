@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Prevent crawlers from scraping auth actions or private pages
+Disallow: /verify-email
+Disallow: /reset-password
+Disallow: /admin
+Disallow: /api/
