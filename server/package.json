@@ -1,0 +1,50 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --import tsx index.js",
+    "dev": "nodemon --exec \"node --import tsx\" index.js",
+    "test:r2": "node --import tsx scripts/test-r2-connection.js",
+    "test:moderation": "vitest run src/services/moderation",
+    "test:rbac": "vitest run src/auth/__tests__/rbac.test.ts",
+    "bootstrap-admin": "node --import tsx scripts/bootstrapSuperAdmin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1085.0",
+    "@google-cloud/vision": "^5.3.7",
+    "@tensorflow/tfjs": "^4.22.0",
+    "archiver": "^8.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "firebase-admin": "^14.1.0",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.3",
+    "multer": "^2.2.0",
+    "nanoid": "^5.1.16",
+    "nsfwjs": "^4.3.0",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.35.3",
+    "socket.io": "^4.8.3",
+    "stripe": "^22.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  }
+}

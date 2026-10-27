@@ -1,0 +1,8 @@
+node_modules/
+uploads/originals/*
+uploads/thumbnails/*
+!uploads/originals/.gitkeep
+!uploads/thumbnails/.gitkeep
+*.log
+.env
+credentials/*.json
